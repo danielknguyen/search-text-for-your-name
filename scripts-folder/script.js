@@ -9,7 +9,7 @@ for (i = 0; i < text.length; i++) {
     }
 };
 if (hits.length === 0) {
-    document.write("Your name wasn't found!");
+    console.log("Your name wasn't found!");
 } else {
-    document.write(hits);
+    console.log(hits);
 };
